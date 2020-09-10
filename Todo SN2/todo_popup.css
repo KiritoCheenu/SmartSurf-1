@@ -1,0 +1,74 @@
+body {
+    width: 420px;
+    height: auto;
+    background: #FF7F50;
+    margin: 20px;
+}
+
+p {
+    line-height: 0.5;
+}
+
+input {
+    border: 4px solid #e7ab78;
+    display: block;
+    width: 90%;
+    line-height: 1.5;
+    outline: 0;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+ul li {
+    color: #212121;
+    font-weight: 400;
+    border: 5px solid #d8de25;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+ul li:before {
+    content: "✍";
+    padding: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+ul li.done {
+    padding: 20px;
+}
+
+.done {
+    color: green;
+    cursor: pointer;
+}
+
+.done:before {
+    content: "\2713";
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.0;
+}
+
+.done:after {
+    content: "Click again to delete task";
+    color: #8c5950;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/*scrollbar*/
+
