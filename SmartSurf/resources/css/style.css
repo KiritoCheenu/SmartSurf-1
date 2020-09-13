@@ -1,0 +1,152 @@
+/*#fcee0a   yellow*/
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: fixed;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 20px;
+/*    margin-right: 100px;*/
+}
+.col{
+    height: auto;
+
+    
+}
+section {
+    padding: 80px 0;
+}
+.box{
+    padding: 1%;
+    background-color: rgba(37, 59, 180, 0.72);
+    
+}
+.box:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 120, 0, 0.50);
+    transition: transform 0.5s, background-color 0.5s;
+    
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/smart.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Main navi */
+/*
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+*/
+
+/* ----------------------------------------------- */
+/* Features */
+/* ----------------------------------------------- */
+.section-features .long-copy{
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fcee0a;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/* -----PARAGRAPHS------*/
+.box p{
+    font-weight: 500;
+    color: rgba(255, 120, 0, 0.50);
+    
+}
