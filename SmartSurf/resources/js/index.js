@@ -23,7 +23,7 @@ document.onmouseover = function(e) {
         var x={
             1 : "Ad blocker",
             2 : "Reading Mode",
-            3 :"Brick breaker",
+            3 : "Brick breaker",
             4 : "Auto Correct",
             5 : "Custom SS",
             6 : "Pomodoro Timer",
