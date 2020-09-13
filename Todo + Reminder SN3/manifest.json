@@ -1,0 +1,23 @@
+{
+
+
+  "manifest_version": 2,
+  "name": "Todo + Reminder SN3",
+  "description": "todo list with reminder, SN2",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": [
+      "*://*/*"
+    ],
+    "js": [
+      "todo_popup.js"
+    ],
+    "run_at": "document_end"
+  }],
+  "permissions": [
+    "storage", "alarms"
+  ],
+  "browser_action": {
+    "default_popup": "todo_popup.html"
+  }
+}

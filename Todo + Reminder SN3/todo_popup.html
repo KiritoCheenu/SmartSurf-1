@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Popup html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+          integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="todo_popup.css">
+</head>
+
+<body>
+<div class="container">
+    <form action="#" autocomplete="off">
+        <label for="item"></label>
+        <input type="text" name="text-field" id="item" placeholder="Add a new task..."  required/>
+        <div class="duration">
+            <label for="hours"></label>
+            <input type="number" id="hours" placeholder="HH" required/>
+            <label for="mins"></label>
+            <input type="number" id="mins" placeholder="MM" required/>
+            <label for="seconds"></label>
+            <input type="number" id="seconds" placeholder="SS" required/>
+        </div>
+        <div class="addTask">
+            <button type="submit"><i class="far fa-plus-square fa-5x"></i></button>
+        </div>
+    </form>
+    <ul id="task-list"></ul>
+
+</div>
+</body>
+
+<script src="todo_popup.js"></script>
+
+</html>
